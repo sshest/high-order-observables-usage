@@ -16,7 +16,7 @@ const clockObservable = clickObservable.pipe(
 -------+--------+-----------------
        \        \
        -0-1-2-3  -0-1-2-3-4-5-6
-       switch
+       mergeAll
 --------0-1-2-3-405162738495....
  */
 
